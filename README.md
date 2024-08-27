@@ -170,4 +170,4 @@ POSTGRES_USER=my-user POSTGRES_PASSWORD=my-password ./run.sh postgres
 | Web Server                  | httpd                     | ✅         |
 | Workflow                    | maestro                   | ✅         |
 | Workflow                    | temporal                  | ✅         | 
-
+| Distributed Data Processing | spark                     | ✅         | 
