@@ -83,6 +83,9 @@ services:
   postgres-server:
     volumes:
       - "./data/postgres/persist:/data/postgres"
+  portainer:
+    volumes:
+      - "./data/portainer/persist:/data"
   prefect-server:
     volumes:
       - "./data/prefect/persist:/root/.prefect"
